@@ -21,6 +21,7 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // it was created by abhishek 
         let myCurrentLocation = CLLocation(latitude: 21.282778, longitude: -157.829444)
         centerMapOnCurrentLocation(location: myCurrentLocation)
     
